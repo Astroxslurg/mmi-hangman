@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
-</AnchorPane>
 
+<AnchorPane stylesheets="@application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <StackPane prefHeight="600.0" prefWidth="400.0" />
+      <Line endX="150.0" layoutX="200.0" layoutY="500.0" startX="-150.0" />
+      <Line endX="100.0" endY="100.0" startX="100.0" startY="500.0" />
+      <Line endX="250.0" endY="100.0" startX="100.0" startY="100.0" />
+      <Line endX="250.0" endY="150.0" startX="250.0" startY="100.0" />
+      <Ellipse centerX="250.0" centerY="200.0" fill="WHITE" radiusX="50.0" radiusY="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="250.0" endY="400.0" startX="250.0" startY="250.0" />
+      <Line endX="200.0" endY="330.0" startX="250.0" startY="280.0" />
+      <Line endX="300.0" endY="330.0" startX="250.0" startY="280.0" />
+      <Line endX="180.0" endY="470.0" startX="250.0" startY="400.0" />
+      <Line endX="320.0" endY="470.0" startX="250.0" startY="400.0" />
+      <Line endX="240.0" endY="200.0" startX="225.0" startY="185.0" />
+      <Line endX="240.0" endY="200.0" layoutX="35.0" startX="225.0" startY="185.0" />
+      <Line endX="240.0" endY="200.0" rotate="90.0" startX="225.0" startY="185.0" />
+      <Line endX="240.0" endY="200.0" layoutX="35.0" rotate="90.0" startX="225.0" startY="185.0" />
+      <Arc centerX="250.0" centerY="230.0" fill="WHITE" length="180.0" radiusX="15.0" radiusY="15.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
